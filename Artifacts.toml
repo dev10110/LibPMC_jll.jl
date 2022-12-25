@@ -1,8 +1,8 @@
 [[LibPMC]]
 arch = "x86_64"
-git-tree-sha1 = "a79205b2938b29bcf44141839828123ed4494b97"
+git-tree-sha1 = "daf801eeea491359776be674f2c72b735d82aecf"
 os = "macos"
 
     [[LibPMC.download]]
-    sha256 = "62a919687ff6a02e07c93b17c5f662824bc9afa63685424b45435b33a63a0fe3"
+    sha256 = "14acf77576bf8db26b510e9ee7b608a7c1a79765261f520dc27a227feaf382b6"
     url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.x86_64-apple-darwin.tar.gz"

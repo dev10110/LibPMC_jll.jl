@@ -10,7 +10,7 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `LibPMC_jll.jl` have been built from these sources:
 
-* git repository: https://github.com/dev10110/pmc (revision: `eeafd470e835c08435323273e25a0188cc68b296`)
+* git repository: https://github.com/dev10110/pmc (revision: `565e93dac78636f47e9534421d3662dc8700e12f`)
 
 ## Platforms
 
