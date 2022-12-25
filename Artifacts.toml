@@ -1,8 +1,407 @@
 [[LibPMC]]
+arch = "aarch64"
+git-tree-sha1 = "2cc160a02c71cd8c045d8d99e126d1860d92442c"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "b52b3d2c9716415b22d47a51074907254103014bb75cffcf743574adee0cb7f0"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.aarch64-linux-gnu.tar.gz"
+[[LibPMC]]
+arch = "aarch64"
+git-tree-sha1 = "4edb50198bbb062977f3733c8e1d0a87785c7fde"
+libc = "musl"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "b99a4131fbbd4cb87d99e675264d6075579503ea1fd36cb929328ae8768f7a81"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.aarch64-linux-musl.tar.gz"
+[[LibPMC]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "e8d71e5a671fcdf88be12ca58ea7498e6680f51c"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "2f109e8ddd35d081e1e3678a8e69bcda2d8add7d4bd7bd4972403954c15d7d16"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.armv6l-linux-gnueabihf.tar.gz"
+[[LibPMC]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "a8f2cea238ece87e3c23751372590cb7917e619d"
+libc = "musl"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "2d8d4e7e896ec58375e6b84ecc658442032cd437a9f3f2d5e0f74c82c78d0234"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.armv6l-linux-musleabihf.tar.gz"
+[[LibPMC]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "9ded3c5bff943ce8d6feb2b601285ddcd1e7a8b3"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "94541f68feb84fe9d89d0de383febd93ea88578b410e3329be97287471bd81ab"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.armv7l-linux-gnueabihf.tar.gz"
+[[LibPMC]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "61e57f5aa4a920574f67838bdfc607facd678808"
+libc = "musl"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "5a7273ea5693bc48c212320836690b722bd29862ec33abc0d5a1549e1b59724d"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.armv7l-linux-musleabihf.tar.gz"
+[[LibPMC]]
+arch = "i686"
+git-tree-sha1 = "f7a92e8b7a9d9268591bd0ad005f350ac6105c4d"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "b8acd7db6c40ac67eeab636c5f4ca7462510b8bb40c477d6b2a604f059285839"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.i686-linux-gnu.tar.gz"
+[[LibPMC]]
+arch = "i686"
+git-tree-sha1 = "e0e08f1ec7fd69b9f76551ab8cea3114eaef1700"
+libc = "musl"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "1f3f0480f0a19cfddbf479b828721f98bbb6b0307b58cdf16099af5a76155d2b"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.i686-linux-musl.tar.gz"
+[[LibPMC]]
+arch = "i686"
+git-tree-sha1 = "c1b94726939a3e0b1ecadff6419c7e0480704df3"
+os = "windows"
+
+    [[LibPMC.download]]
+    sha256 = "34e0a5f9343b6296faba67b71aab9c991a20e90b8e31ea181d56c39724706b5f"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.i686-w64-mingw32.tar.gz"
+[[LibPMC]]
+arch = "powerpc64le"
+git-tree-sha1 = "e18543938d28e0a11b73047dbe903b7c24897b21"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "03a624bedfe771e514608090627628c36e0b0ec05687a02ad2a8ec01bcbcbc94"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.powerpc64le-linux-gnu.tar.gz"
+[[LibPMC]]
 arch = "x86_64"
-git-tree-sha1 = "daf801eeea491359776be674f2c72b735d82aecf"
+git-tree-sha1 = "b97de8dc635e522748ecaf55bf7f5fbd187cb348"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "0c18a92eb81b3ddd97a8977628bbd76ac3d27d6bea6f7c8c83bba8b4a6bf4811"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.x86_64-linux-gnu.tar.gz"
+[[LibPMC]]
+arch = "x86_64"
+git-tree-sha1 = "ab1e3771334263d6933940ee24fbdf1d91358274"
+libc = "musl"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "b7aa0f4f88dffda86ff7ce1d589e7b5694403ec8ca5fb8ff4080298c758c076f"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.x86_64-linux-musl.tar.gz"
+[[LibPMC]]
+arch = "x86_64"
+git-tree-sha1 = "1048e0533eea1eead2a0d719d9cba6edbe791bbe"
+os = "windows"
+
+    [[LibPMC.download]]
+    sha256 = "330ee2f6a346833677ccfbefbe67e05634e527d9af4bb05a4c4896fa5e37d6dd"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.x86_64-w64-mingw32.tar.gz"
+[[LibPMC]]
+arch = "aarch64"
+git-tree-sha1 = "05ece5556c23eda9cfc857f398619c3304b58ea0"
 os = "macos"
 
     [[LibPMC.download]]
-    sha256 = "14acf77576bf8db26b510e9ee7b608a7c1a79765261f520dc27a227feaf382b6"
+    sha256 = "8afa3f5a04073b028b76abd7d815321b81bb1b9cff342618e7a737d4789253fe"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.aarch64-apple-darwin.tar.gz"
+[[LibPMC]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2cc160a02c71cd8c045d8d99e126d1860d92442c"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "b52b3d2c9716415b22d47a51074907254103014bb75cffcf743574adee0cb7f0"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.aarch64-linux-gnu-cxx03.tar.gz"
+[[LibPMC]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "40b4cfe0ac920d5a03bfc1331b391e43533e99e7"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "cd67d44e478a7ced72e1f31f5e4ba3dde61b7e00b0e7127ffb4eabeb9fc23def"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.aarch64-linux-gnu-cxx11.tar.gz"
+[[LibPMC]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4edb50198bbb062977f3733c8e1d0a87785c7fde"
+libc = "musl"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "b99a4131fbbd4cb87d99e675264d6075579503ea1fd36cb929328ae8768f7a81"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.aarch64-linux-musl-cxx03.tar.gz"
+[[LibPMC]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "43464a1ed1573a506bee8ae960ec7f88bbc55c95"
+libc = "musl"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "ec7fad902944c79d04507384509a6d328172ebe2025e6c8d9ce1be8381899a91"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.aarch64-linux-musl-cxx11.tar.gz"
+[[LibPMC]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e8d71e5a671fcdf88be12ca58ea7498e6680f51c"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "2f109e8ddd35d081e1e3678a8e69bcda2d8add7d4bd7bd4972403954c15d7d16"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.armv6l-linux-gnueabihf-cxx03.tar.gz"
+[[LibPMC]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5a616859a26de5c1520c7115bb12776e4b4cbd18"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "9aa4e232b5068fb9ea37efdaef8c941d55cab02e264617d4e9775f19075eed20"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.armv6l-linux-gnueabihf-cxx11.tar.gz"
+[[LibPMC]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a8f2cea238ece87e3c23751372590cb7917e619d"
+libc = "musl"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "2d8d4e7e896ec58375e6b84ecc658442032cd437a9f3f2d5e0f74c82c78d0234"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.armv6l-linux-musleabihf-cxx03.tar.gz"
+[[LibPMC]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c6456c819408ca6e59cc458a0f01543893985303"
+libc = "musl"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "fe7aa31cac2e3dad428707bba6bf17633bbd6c71bc9181f264b7d4f3e2decea1"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.armv6l-linux-musleabihf-cxx11.tar.gz"
+[[LibPMC]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9ded3c5bff943ce8d6feb2b601285ddcd1e7a8b3"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "94541f68feb84fe9d89d0de383febd93ea88578b410e3329be97287471bd81ab"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[LibPMC]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8fc6d0c78cf78e8f527350bc282eaa886730af38"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "1814b5331eb2a66b34aa42f825259e5c85abc8bebf2a244739f638862c6360ca"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[LibPMC]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "61e57f5aa4a920574f67838bdfc607facd678808"
+libc = "musl"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "5a7273ea5693bc48c212320836690b722bd29862ec33abc0d5a1549e1b59724d"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[LibPMC]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c5e9d5ef1930853380e26787f6fe3733c585ac63"
+libc = "musl"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "8046eb14be2378f8ffc5a99fdc99722c2eb2a38d588516c0e9a861fb8faa46bc"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[LibPMC]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f7a92e8b7a9d9268591bd0ad005f350ac6105c4d"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "b8acd7db6c40ac67eeab636c5f4ca7462510b8bb40c477d6b2a604f059285839"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.i686-linux-gnu-cxx03.tar.gz"
+[[LibPMC]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3e412117fdf9853b5b6f70b572ecd407954ff643"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "0c93c9add6645f57089c7a4bc06830a6842d82503e327cb43a1007178d3f06e8"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.i686-linux-gnu-cxx11.tar.gz"
+[[LibPMC]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e0e08f1ec7fd69b9f76551ab8cea3114eaef1700"
+libc = "musl"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "1f3f0480f0a19cfddbf479b828721f98bbb6b0307b58cdf16099af5a76155d2b"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.i686-linux-musl-cxx03.tar.gz"
+[[LibPMC]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "56167af5edb8e50b87eee61af97f6049f6b3acc1"
+libc = "musl"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "e18a61d99dd32e769eedbc6b4ef18ece120adda6a56824268c0616b85b39c2ce"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.i686-linux-musl-cxx11.tar.gz"
+[[LibPMC]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6fa948c8167a6076604e995abeb619db99b43ba7"
+os = "windows"
+
+    [[LibPMC.download]]
+    sha256 = "3349f9815ca62a9340956f006d7f2bc6c44861f313afce4978bff8aa1645cdef"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.i686-w64-mingw32-cxx03.tar.gz"
+[[LibPMC]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e23fdaed0ca6d8f5e244f40711e62e4177328056"
+os = "windows"
+
+    [[LibPMC.download]]
+    sha256 = "f802867e86d8b5591739770195513def4a0b2360516c8c38eddf6d0ea5f25673"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.i686-w64-mingw32-cxx11.tar.gz"
+[[LibPMC]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e18543938d28e0a11b73047dbe903b7c24897b21"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "03a624bedfe771e514608090627628c36e0b0ec05687a02ad2a8ec01bcbcbc94"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[LibPMC]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0dd53733be440eb0899166d29439d21baf8bf7f5"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "e9369065cd1fdb57e1884ae9c3ff91979541f5a4604f1c5544b7bf50a38713f7"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[LibPMC]]
+arch = "x86_64"
+git-tree-sha1 = "8acc16ecddb3bcbe5b28407022760bad27643300"
+os = "macos"
+
+    [[LibPMC.download]]
+    sha256 = "450ded0e473de48ea5c3ec0d37184bfeee491b476d788709755d434d8b6793d4"
     url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.x86_64-apple-darwin.tar.gz"
+[[LibPMC]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b97de8dc635e522748ecaf55bf7f5fbd187cb348"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "0c18a92eb81b3ddd97a8977628bbd76ac3d27d6bea6f7c8c83bba8b4a6bf4811"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.x86_64-linux-gnu-cxx03.tar.gz"
+[[LibPMC]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ffa145e432363910bf70558bbb95970e84ab750b"
+libc = "glibc"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "aba2d2eafaaac2db21168aada4be435a06e09a06d75668e3347fc6a8c1776afa"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.x86_64-linux-gnu-cxx11.tar.gz"
+[[LibPMC]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ab1e3771334263d6933940ee24fbdf1d91358274"
+libc = "musl"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "b7aa0f4f88dffda86ff7ce1d589e7b5694403ec8ca5fb8ff4080298c758c076f"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.x86_64-linux-musl-cxx03.tar.gz"
+[[LibPMC]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a973641fd89f5fe2b512af0bb965556e8f33cb84"
+libc = "musl"
+os = "linux"
+
+    [[LibPMC.download]]
+    sha256 = "8482f3ded956f271fb586e7eb79b8a9e9b89d2691eb8aad2629219002032cc5e"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.x86_64-linux-musl-cxx11.tar.gz"
+[[LibPMC]]
+arch = "x86_64"
+git-tree-sha1 = "da05d2c903a4775e1ab5587d554dd2e7bbb5c473"
+os = "freebsd"
+
+    [[LibPMC.download]]
+    sha256 = "871037a7d39cb8e9dc4fc544e818125b3a9e8f5134986003b0b7094fd089f157"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.x86_64-unknown-freebsd.tar.gz"
+[[LibPMC]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "cfab8f917eeb1a29a77d9664056306beec3e1424"
+os = "windows"
+
+    [[LibPMC.download]]
+    sha256 = "6efaa4f9883e6b4026c4e82645006140e161e311f277f406029c0d6a2c2ea75e"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.x86_64-w64-mingw32-cxx03.tar.gz"
+[[LibPMC]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bcd3f678b17080e74775f3a015f70c41756f7c1c"
+os = "windows"
+
+    [[LibPMC.download]]
+    sha256 = "2eeaf248ac516a2b8b959eac64b8de9640c58f9c4618c5c6c16b5316282b6231"
+    url = "https://github.com/local/releases/download/LibPMC-v0.1.1+0/LibPMC.v0.1.1.x86_64-w64-mingw32-cxx11.tar.gz"
